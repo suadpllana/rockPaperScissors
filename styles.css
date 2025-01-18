@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    font-size: 60px;
+    border: none;
+    background-color: aqua;
+    cursor: pointer;
+}
+ img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+button:hover{
+    opacity: 0.7;
+}
+#playerChoice , #computerChoice, #displayWinner{
+    margin-top: 20px;
+    font-size: 30px;
+}
+#playerScoreDisplay , #computerScoreDisplay{
+    font-size: 25px;
+}
+@media (max-width: 767px) {
+    button{
+        width: 100px;
+        height: 100px;
+        font-size: 35px;
+    }
+}
+.choices div  p{
+    display: inline;
+}
+.computerImage {
+    transform: rotateY(180deg);
+}
